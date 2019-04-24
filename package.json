@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "author": "David Mark Clements <david.mark.clements@gmail.com>",
+  "devDependencies": {},
+  "scripts": {},
+  "keywords": [],
+  "dependencies": {
+    "babylon": "^6.18.0",
+    "to-esx": "^1.0.6"
+  }
+}
