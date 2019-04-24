@@ -1,6 +1,7 @@
 {
+  "name": "babel-plugin-esx-ssr",
   "version": "1.0.0",
-  "description": "",
+  "description": "Babel plugin for the Server-Side which converts JSX to ESX for performance gains.",
   "author": "David Mark Clements <david.mark.clements@gmail.com>",
   "devDependencies": {},
   "scripts": {},
@@ -8,5 +9,18 @@
   "dependencies": {
     "babylon": "^6.18.0",
     "to-esx": "^1.0.6"
-  }
+  },
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esxjs/babel-plugin-esx-ssr.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esxjs/babel-plugin-esx-ssr/issues"
+  },
+  "homepage": "https://github.com/esxjs/babel-plugin-esx-ssr#readme"
 }
