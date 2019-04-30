@@ -5,6 +5,7 @@ const { parse } = require('babylon')
 var done = false
 function transform () {
   return {
+    name: 'esx',
     visitor: {
       Program(program, { file }) {
         if (done) return
